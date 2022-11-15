@@ -6,5 +6,6 @@ window.onload =  function (){
     let randomWho = Math.floor(Math.random() * 3);
     let randomWhat = Math.floor(Math.random() * 3);
     let randomWhen = Math.floor(Math.random() * 4);
+
     document.querySelector('body').innerHTML = "<h1>" + who[randomWho] + " " + what[randomWhat]+ " " + when[randomWhen] + "</h1>"
 }
